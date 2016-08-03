@@ -1,5 +1,5 @@
 $(document).ready(function(){
-		load(20);
+		load(32);
 		change("white");
 		clicked();
 });
@@ -52,7 +52,7 @@ function randomColour(){
 }	
 function clicker(colour) {
 	
-		size = prompt("Enter desired lenth (between 0 and 128)");
+		size = prompt("Enter length (between 0 and 128)");
 		$('.square').remove();
 		$('.cont br').remove();				
 		load(size);
