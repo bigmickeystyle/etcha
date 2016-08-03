@@ -1,0 +1,43 @@
+body{
+	text-align: center;	
+	
+}
+
+.square {
+	padding:0;
+    margin:0;
+    float: left;
+	height: 48px;
+	width: 48px;
+	background-color: black;
+}
+
+.bw {
+	background-color: white;
+}
+
+.square rbow {
+	background-color: black;
+}
+
+.cont{
+	height:960px; width: 960px;
+	margin: 10px auto;
+	border: 1px solid black;
+} 
+
+img{	
+	height:960px; width: 960px;
+}
+
+.button {
+	height:30 px;
+	width: 200px;	 
+	margin: auto;
+	display: inline-block;
+	font-size: 20px;
+}
+
+div input {
+	margin: 5px;
+}
